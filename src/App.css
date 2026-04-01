@@ -1,0 +1,7 @@
+.word-spaces {
+    word-spacing: 10px;
+}
+
+.shadow-background {
+    text-shadow: 10px 5px 5px blue, -10px -5px 5px red;
+}
