@@ -9,6 +9,13 @@ import WidthHeight from './components/WidthHeight.jsx'
 import BoxModal from './components/BoxModal.jsx'
 import InlineBlock from './components/InlineBlock.jsx'
 import TextEffects from './components/TextEffects.jsx'
+import List from './components/List.jsx'
+import Table from './components/Table.jsx'
+import ElementNature from './components/ElementNature.jsx'
+import DynamicSize from './components/DynamicSize.jsx'
+import Position from './components/Position.jsx'
+import Overflow from './components/Overflow.jsx'
+import Float from './components/Float.jsx'
 
 
 const App = () => {
@@ -21,8 +28,16 @@ const App = () => {
             {/* <BoxModal /> */}
             {/* <InlineBlock /> */}
             {/* <WidthHeight /> */}
-            <TextEffects />
+            {/* <TextEffects /> */}
+            {/* <List /> */}
+            {/* <Table /> */}
+            {/* <ElementNature /> */}
+            {/* <DynamicSize /> */}
+            {/* <Position /> */}
+            {/* <Overflow /> */}
+            <Float />
 
+            {/* CSS Combinators */}
         </div>
     )
 }
