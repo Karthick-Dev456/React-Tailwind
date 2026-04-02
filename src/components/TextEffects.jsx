@@ -18,7 +18,13 @@ const TextEffects = () => {
             <h2 className='underline decoration-red-400 decoration-2'>Javascript</h2>
 
             {/* Italic */}
-            <p className='italic'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa, vel.</p>
+            <p className='italic'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa, vel.</p> <br />
+
+            {/* Thickness */}
+
+            <p className='font-extralight text-center'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas, non!</p>
+            <p className='font-medium'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas, non!</p>
+            <p className='font-extrabold'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas, non!</p> <br />
 
             {/* Transform */}
             <p className='uppercase'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa, vel.</p>

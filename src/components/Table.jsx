@@ -45,21 +45,21 @@ const Table = () => {
             <table className='border border-gray-300 m-5'>
                 <thead>
                     <tr>
-                            <th className='border px-4 py-2'>ID</th>
-                            <th className='border px-4 py-2'>Name</th>
-                            <th className='border px-4 py-2'>Age</th>
-                            <th className='border px-4 py-2'>Course</th>
-                            <th className='border px-4 py-2'>Email</th>
+                            <th className='border border-gray-300 px-4 py-2'>ID</th>
+                            <th className='border border-gray-300 px-4 py-2'>Name</th>
+                            <th className='border border-gray-300 px-4 py-2'>Age</th>
+                            <th className='border border-gray-300 px-4 py-2'>Course</th>
+                            <th className='border border-gray-300 px-4 py-2'>Email</th>
                     </tr>
                 </thead>
                 <tbody>
                     {students.map((student) => (
                         <tr key={student.id} className='odd:bg-white even:bg-gray-100'>
-                            <td className='border px-4 py-2'>{student.id}</td>
-                            <td className='border px-4 py-2'>{student.name}</td>
-                            <td className='border px-4 py-2'>{student.age}</td>
-                            <td className='border px-4 py-2'>{student.course}</td>
-                            <td className='border px-4 py-2'>{student.email}</td>
+                            <td className='border border-gray-300 px-4 py-2'>{student.id}</td>
+                            <td className='border border-gray-300 px-4 py-2'>{student.name}</td>
+                            <td className='border border-gray-300 px-4 py-2'>{student.age}</td>
+                            <td className='border border-gray-300 px-4 py-2'>{student.course}</td>
+                            <td className='border border-gray-300 px-4 py-2'>{student.email}</td>
                         </tr>
                     ))}
                 </tbody>
