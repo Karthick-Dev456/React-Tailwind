@@ -1,12 +1,70 @@
-# React + Vite
+<!-- PRE FLIGHT -->
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<!-- LAYOUT -->
 
-Currently, two official plugins are available:
+# Element-Size
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+size-number_value
 
-## Expanding the ESLint configuration
+# Aspect-Ratio
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+    To Adjust the Size of image or video to a modern day fixed resolution scale
+
+# Columns
+
+    To split a container vertically into required number of equal parts
+    We can use both the number-values and breakpoints
+
+# Break-Befor and Break-After
+
+    When we have multiple columns, this help to mention when the contents should move from one column to another
+
+# Box-Border
+
+# Image
+
+    object-fill
+    object-contain
+    object-cover
+
+    object-side
+    object-side-side
+    object-center
+
+# Flex
+
+flex
+flex-row
+flex-row-reverse
+flex-col
+flex-col-reverse
+
+justify-start
+justify-center
+justify-end
+justify-around
+justify-between
+justify-evenly
+
+items-start
+items-center
+items-end
+
+gap-number_balue
+
+flex-nowrap
+flex-wrap
+flex-wrap-reverse
+content-start
+
+
+grow
+flex-number_values
+
+
+# Grid
+
+grid
+grid-cols-number_values
+gap-number_values
+col-span-number_value

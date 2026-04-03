@@ -16,6 +16,8 @@ import DynamicSize from './components/DynamicSize.jsx'
 import Position from './components/Position.jsx'
 import Overflow from './components/Overflow.jsx'
 import Float from './components/Float.jsx'
+import PseudoSelectors from './components/PseudoSelectors.jsx'
+import Layout from './components/Layout.jsx'
 
 
 const App = () => {
@@ -36,9 +38,11 @@ const App = () => {
             {/* <DynamicSize /> */}
             {/* <Position /> */}
             {/* <Overflow /> */}
-            <Float />
+            {/* <Float /> */}
 
-            {/* CSS Combinators */}
+            <Layout />
+
+            {/* <PseudoSelectors /> */}
         </div>
     )
 }
