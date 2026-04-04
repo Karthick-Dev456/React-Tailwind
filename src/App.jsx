@@ -14,10 +14,12 @@ import PseudoSelectors from './pages/PseudoSelectors'
 import InlineBlock from './pages/InlineBlock'
 import Flexbox from './pages/Flexbox'
 import GridSystem from './pages/GridSystem'
-
 import List from './pages/List'
 import Table from './pages/Table'
 import Form from './Form'
+import Effects from './pages/Effects'
+import Animation from './pages/Animation'
+import Responsive from './pages/Responsive'
 
 
 const App = () => {
@@ -36,12 +38,14 @@ const App = () => {
             {/* <PseudoSelectors /> */}
             {/* <InlineBlock /> */}
             {/* <Flexbox /> */}
-            <GridSystem />
-
-
+            {/* <GridSystem /> */}
             {/* <List /> */}
             {/* <Table /> */}
             {/* <Form /> */}
+            {/* <Effects /> */}
+            {/* <Animation /> */}
+            {/* <Responsive /> */}
+            
         </div>
     )
 }
