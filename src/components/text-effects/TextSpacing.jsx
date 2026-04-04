@@ -1,0 +1,21 @@
+import React from 'react'
+
+const TextSpacing = () => {
+    return (
+        <div>
+
+            <p className='indent-10'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, repellat non dignissimos magni hic voluptate soluta a commodi ratione unde! Inventore laborum adipisci fuga tempore officia earum ut quis soluta expedita facere corporis ad mollitia nihil, nostrum dicta quam. Officia, iste. Odit illum nemo inventore provident, deleniti labore, aspernatur mollitia et in corporis cupiditate non quibusdam enim id? Porro reiciendis perferendis cum, nihil iure ipsam quibusdam quaerat illum voluptate fuga aut quod qui sit in quos tenetur perspiciatis magnam! Sequi, accusamus? Sint placeat minus voluptatem harum consequuntur assumenda, dolores numquam inventore deleniti minima laudantium voluptatibus, porro quas sit, odit accusamus!</p> <br />
+
+            <p className='tracking-wider'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, repellat non dignissimos magni hic voluptate soluta a commodi ratione unde! Inventore laborum adipisci fuga tempore officia earum ut quis soluta expedita facere corporis ad mollitia nihil, nostrum dicta quam. Officia, iste. Odit illum nemo inventore provident, deleniti labore, aspernatur mollitia et in corporis cupiditate non quibusdam enim id? Porro reiciendis perferendis cum, nihil iure ipsam quibusdam quaerat illum voluptate fuga aut quod qui sit in quos tenetur perspiciatis magnam! Sequi, accusamus? Sint placeat minus voluptatem harum consequuntur assumenda, dolores numquam inventore deleniti minima laudantium voluptatibus, porro quas sit, odit accusamus!</p><br />
+
+            <p className='leading-8'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, repellat non dignissimos magni hic voluptate soluta a commodi ratione unde! Inventore laborum adipisci fuga tempore officia earum ut quis soluta expedita facere corporis ad mollitia nihil, nostrum dicta quam. Officia, iste. Odit illum nemo inventore provident, deleniti labore, aspernatur mollitia et in corporis cupiditate non quibusdam enim id? Porro reiciendis perferendis cum, nihil iure ipsam quibusdam quaerat illum voluptate fuga aut quod qui sit in quos tenetur perspiciatis magnam! Sequi, accusamus? Sint placeat minus voluptatem harum consequuntur assumenda, dolores numquam inventore deleniti minima laudantium voluptatibus, porro quas sit, odit accusamus!</p><br />
+
+            <p className='text-justify'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, repellat non dignissimos magni hic voluptate soluta a commodi ratione unde! Inventore laborum adipisci fuga tempore officia earum ut quis soluta expedita facere corporis ad mollitia nihil, nostrum dicta quam. Officia, iste. Odit illum nemo inventore provident, deleniti labore, aspernatur mollitia et in corporis cupiditate non quibusdam enim id? Porro reiciendis perferendis cum, nihil iure ipsam quibusdam quaerat illum voluptate fuga aut quod qui sit in quos tenetur perspiciatis magnam! Sequi, accusamus? Sint placeat minus voluptatem harum consequuntur assumenda, dolores numquam inventore deleniti minima laudantium voluptatibus, porro quas sit, odit accusamus!</p><br />
+
+            <p style={{wordSpacing: '15px'}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, repellat non dignissimos magni hic voluptate soluta a commodi ratione unde! Inventore laborum adipisci fuga tempore officia earum ut quis soluta expedita facere corporis ad mollitia nihil, nostrum dicta quam. Officia, iste. Odit illum nemo inventore provident, deleniti labore, aspernatur mollitia et in corporis cupiditate non quibusdam enim id? Porro reiciendis perferendis cum, nihil iure ipsam quibusdam quaerat illum voluptate fuga aut quod qui sit in quos tenetur perspiciatis magnam! Sequi, accusamus? Sint placeat minus voluptatem harum consequuntur assumenda, dolores numquam inventore deleniti minima laudantium voluptatibus, porro quas sit, odit accusamus!</p><br />
+
+        </div>
+    )
+}
+
+export default TextSpacing

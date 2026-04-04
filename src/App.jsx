@@ -1,48 +1,47 @@
 import React from 'react'
 import './App.css'
 
-import Color from './components/Color.jsx'
-import Margin from './components/Margin.jsx'
-import Padding from './components/Padding.jsx'
-import Border from './components/Border.jsx'
-import WidthHeight from './components/WidthHeight.jsx'
-import BoxModal from './components/BoxModal.jsx'
-import InlineBlock from './components/InlineBlock.jsx'
-import TextEffects from './components/TextEffects.jsx'
-import List from './components/List.jsx'
-import Table from './components/Table.jsx'
-import ElementNature from './components/ElementNature.jsx'
-import DynamicSize from './components/DynamicSize.jsx'
-import Position from './components/Position.jsx'
-import Overflow from './components/Overflow.jsx'
-import Float from './components/Float.jsx'
-import PseudoSelectors from './components/PseudoSelectors.jsx'
-import Layout from './components/Layout.jsx'
+import Preflight from './pages/Preflight'
+import Typography from './pages/Typography'
+import Color from './pages/Color'
+import BoxModel from './pages/BoxModel'
+import Image from './pages/Image'
+import Containers from './pages/Containers'
+import FloatClear from './pages/FloatClear'
+import Position from './pages/Position'
+import Overflows from './pages/Overflows'
+import PseudoSelectors from './pages/PseudoSelectors'
+import InlineBlock from './pages/InlineBlock'
+import Flexbox from './pages/Flexbox'
+import GridSystem from './pages/GridSystem'
+
+import List from './pages/List'
+import Table from './pages/Table'
+import Form from './Form'
 
 
 const App = () => {
     return (
         <div>
+
+            {/* <Preflight /> */}
+            {/* <Typography /> */}
             {/* <Color /> */}
-            {/* <Margin /> */}
-            {/* <Padding /> */}
-            {/* <Border /> */}
-            {/* <BoxModal /> */}
+            {/* <BoxModel /> */}
+            {/* <Image /> */}
+            {/* <Containers /> */}
+            {/* <FloatClear /> */}
+            {/* <Position /> */}
+            {/* <Overflows /> */}
+            {/* <PseudoSelectors /> */}
             {/* <InlineBlock /> */}
-            {/* <WidthHeight /> */}
-            {/* <TextEffects /> */}
+            {/* <Flexbox /> */}
+            <GridSystem />
+
 
             {/* <List /> */}
             {/* <Table /> */}
-            {/* <ElementNature /> */}
-            {/* <DynamicSize /> */}
-            {/* <Position /> */}
-            {/* <Overflow /> */}
-            {/* <Float /> */}
-
-            <Layout />
-
-            {/* <PseudoSelectors /> */}
+            {/* <Form /> */}
         </div>
     )
 }
